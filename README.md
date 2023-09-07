@@ -14,5 +14,7 @@ L’output del prezzo finale va messo fuori in forma umana (con massimo due deci
 ## programma della mia procedura
 
 1. salvare i chilometri da percorrere ed età chesti all'utente
+1. fare if di controllo dei valori
+1. fare output del messaggio
 1. fare degli if per calcolare il prezzo
-1. scrivere l'output del prezzo
+
