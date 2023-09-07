@@ -3,8 +3,8 @@ const age = parseInt(prompt("Scrivi la tua età"));
 let valid = true;
 let message;
 
-if((isNaN(age || kilometres)) || age==null || kilometres==null){
-  message = "Errore! Non hai inserito un numero";
+if((isNaN(age || kilometres)) || age==null || kilometres==null || age < 0 || kilometres < 0){
+  message = "Errore! Non hai inserito un valore corretto";
   valid = false;
 }
 
