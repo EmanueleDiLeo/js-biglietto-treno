@@ -4,7 +4,7 @@ let valid = true;
 let message;
 
 
-if((isNaN(age && kilometres)) || age==null || kilometres==null || age < 0 || kilometres < 0){
+if(isNaN(age) || isNaN(kilometres) || age==null || kilometres==null || age < 0 || kilometres < 0){
   message = "Errore! Non hai inserito un valore corretto";
   valid = false;
 }
